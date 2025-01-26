@@ -26,7 +26,7 @@ UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 #科学插件
 UPDATE_PACKAGE "luci-app-ssr-plus" "fw876/helloworld" "master"   #ssr plus
 UPDATE_PACKAGE "luci-app-homeproxy" "VIKINGYFY/homeproxy" "main"  #homeproxy
-UPDATE_PACKAGE "passwall-packages" "xiaorouji/openwrt-passwall-packages" "main"  #passwall组件
+#UPDATE_PACKAGE "passwall-packages" "xiaorouji/openwrt-passwall-packages" "main"  #passwall组件
 UPDATE_PACKAGE "luci-app-passwall" "xiaorouji/openwrt-passwall" "main" "pkg"   #passwall
 #UPDATE_PACKAGE "luci-app-passwall" "xiaorouji/openwrt-passwall" "luci-smartdns-dev" "pkg"
 UPDATE_PACKAGE "luci-app-passwall2" "xiaorouji/openwrt-passwall2" "main"    #passwall2
