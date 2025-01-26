@@ -34,12 +34,11 @@ UPDATE_PACKAGE "nekoclash" "Thaolga/luci-app-nekoclash" "main"  #nekoclash
 UPDATE_PACKAGE "luci-app-mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"   #mihomo
 UPDATE_PACKAGE "luci-app-openclash" "vernesong/OpenClash" "dev" "pkg"  #openclash
 
-UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
-UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"
-UPDATE_PACKAGE "wol" "VIKINGYFY/packages" "main" "pkg"
-
-UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
-UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
+#UPDATE_PACKAGE "luci-app-alist" "sbwml/luci-app-alist" "master"   #alist
+#UPDATE_PACKAGE "luci-app-mosdns" "sbwml/luci-app-mosdns" "v5"  #mosdns
+UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"    #集客 AC OpenWRT 插件 2.1 版
+UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"   #tailscale
+UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/luci-app-wolplus" "main"   #网络唤醒
 
 UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
