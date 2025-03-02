@@ -67,10 +67,9 @@ UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"  #openclash
 
 #UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "master"   #alist
 UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"  #mosdns
-UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"    #集客 AC OpenWRT 插件 2.1 版
-UPDATE_PACKAGE "tailscale" "asvow/luci-app-tailscale" "main"   #tailscale
-UPDATE_PACKAGE "wolplus" "VIKINGYFY/luci-app-wolplus" "main"   #网络唤醒
-
+UPDATE_PACKAGE "luci-app-wol" "VIKINGYFY/packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-gecoosac" "lwb1978/openwrt-gecoosac" "main"
+UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
 UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
 
