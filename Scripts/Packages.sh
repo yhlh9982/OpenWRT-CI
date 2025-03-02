@@ -62,7 +62,6 @@ UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"   #passwall
 #UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "luci-smartdns-dev" "pkg"
 UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main"    #passwall2
 UPDATE_PACKAGE "nekoclash" "Thaolga/luci-app-nekoclash" "main"  #nekoclash
-UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"   #mihomo
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"  #openclash
 
