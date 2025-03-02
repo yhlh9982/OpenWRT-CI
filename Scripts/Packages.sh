@@ -55,22 +55,22 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 
 #科学插件
-UPDATE_PACKAGE "luci-app-ssr-plus" "fw876/helloworld" "master"   #ssr plus
-UPDATE_PACKAGE "luci-app-homeproxy" "VIKINGYFY/homeproxy" "main"  #homeproxy
+UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"   #ssr plus
+UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"  #homeproxy
 UPDATE_PACKAGE "passwall-packages" "xiaorouji/openwrt-passwall-packages" "main"  #passwall组件
-UPDATE_PACKAGE "luci-app-passwall" "xiaorouji/openwrt-passwall" "main" "pkg"   #passwall
-#UPDATE_PACKAGE "luci-app-passwall" "xiaorouji/openwrt-passwall" "luci-smartdns-dev" "pkg"
-UPDATE_PACKAGE "luci-app-passwall2" "xiaorouji/openwrt-passwall2" "main"    #passwall2
+UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"   #passwall
+#UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "luci-smartdns-dev" "pkg"
+UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main"    #passwall2
 UPDATE_PACKAGE "nekoclash" "Thaolga/luci-app-nekoclash" "main"  #nekoclash
-UPDATE_PACKAGE "luci-app-mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"   #mihomo
-UPDATE_PACKAGE "luci-app-nikki" "nikkinikki-org/OpenWrt-nikki" "main"
-UPDATE_PACKAGE "luci-app-openclash" "vernesong/OpenClash" "dev" "pkg"  #openclash
+UPDATE_PACKAGE "mihomo" "morytyann/OpenWrt-mihomo" "main" "pkg"   #mihomo
+UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
+UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"  #openclash
 
-#UPDATE_PACKAGE "luci-app-alist" "sbwml/luci-app-alist" "master"   #alist
-UPDATE_PACKAGE "luci-app-mosdns" "sbwml/luci-app-mosdns" "v5"  #mosdns
+#UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "master"   #alist
+UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5"  #mosdns
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"    #集客 AC OpenWRT 插件 2.1 版
-UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"   #tailscale
-UPDATE_PACKAGE "luci-app-wolplus" "VIKINGYFY/luci-app-wolplus" "main"   #网络唤醒
+UPDATE_PACKAGE "tailscale" "asvow/luci-app-tailscale" "main"   #tailscale
+UPDATE_PACKAGE "wolplus" "VIKINGYFY/luci-app-wolplus" "main"   #网络唤醒
 
 
 UPDATE_PACKAGE "lazyoop" "lazyoop/networking-artifact" "main"
