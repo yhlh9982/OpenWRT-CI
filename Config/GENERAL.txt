@@ -5,13 +5,13 @@
 #CONFIG_PACKAGE_luci-app-nikki=y
 #CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-passwall=y
-CONFIG_PACKAGE_luci-app-passwall2=y
+#CONFIG_PACKAGE_luci-app-passwall2=y
 
 #增加插件
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-netdata=y  #实时监控
-#CONFIG_PACKAGE_luci-app-vlmcsd=y
+CONFIG_PACKAGE_luci-app-vlmcsd=y
 CONFIG_PACKAGE_luci-app-smartdns=y
 #CONFIG_PACKAGE_luci-app-mosdns=y
 CONFIG_PACKAGE_luci-app-wireguard=y
