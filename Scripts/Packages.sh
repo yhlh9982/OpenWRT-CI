@@ -48,11 +48,17 @@ UPDATE_PACKAGE() {
 UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-24.10"
 UPDATE_PACKAGE "kucat" "sirpdboy/luci-theme-kucat" "js"
 
-UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
+#科学插件
+UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"   #ssr plus
+UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"  #homeproxy
+#UPDATE_PACKAGE "passwall-packages" "xiaorouji/openwrt-passwall-packages" "main"  #passwall组件
+UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"   #passwall
+#UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "luci-smartdns-dev" "pkg"
+UPDATE_PACKAGE "passwall2" "xiaorouji/openwrt-passwall2" "main"    #passwall2
+UPDATE_PACKAGE "nekoclash" "Thaolga/luci-app-nekoclash" "main"  #nekoclash
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
-UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"
-UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
-UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
+UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "dev" "pkg"  #openclash
+
 
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 
