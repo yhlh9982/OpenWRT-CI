@@ -56,16 +56,26 @@ UPDATE_PACKAGE "noobwrt" "nooblk-98/luci-theme-noobwrt" "master"
 UPDATE_PACKAGE "shadcn" "eamonxg/luci-theme-shadcn" "main"
 UPDATE_PACKAGE "theme-fluent" "LazuliKao/luci-theme-fluent" "main"
 
+UPDATE_PACKAGE "daede" "kenzok8/openwrt-daede" "main"
 UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "kix"
 UPDATE_PACKAGE "vmlinux-btf" "QiuSimons/vmlinux-btf" "master"
+
+# UPDATE_PACKAGE "daed-honk" "QiuSimons/luci-app-honk" "master"
+UPDATE_PACKAGE "daed-honk" "breeze303/openwrt-honk" "main"
+
 UPDATE_PACKAGE "helloworld-ssrp" "fw876/helloworld" "master"
+
 UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
+
 UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
+UPDATE_PACKAGE "nikki-rs" "CHKayanami/OpenWrt-nikki-rs" "main"
+
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "master" "pkg"
+
 UPDATE_PACKAGE "passwall" "Openwrt-Passwall/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
-# UPDATE_PACKAGE "passwall-packages" "Openwrt-Passwall/openwrt-passwall-packages" "main" 
+UPDATE_PACKAGE "passwall-packages" "Openwrt-Passwall/openwrt-passwall-packages" "main" 
 
 # 常用工具与应用
 UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "master" "" "homebox speedtest"  #homebox speedtest测速
