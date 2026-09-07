@@ -86,6 +86,15 @@ jobs:
           sudo -E systemctl daemon-reload
           sudo -E timedatectl set-timezone "Asia/Shanghai"
 
+          # 安装 eBPF / daed / Honk 编译依赖
+          sudo -E apt-get -yqq install \
+          git curl jq patch gzip zstd binutils \
+          clang llvm dwarves libbpf-dev libclang-dev \
+          pkg-config cmake lua5.4 ripgrep \
+          build-essential libssl-dev libelf-dev \
+          bc flex bison python3 xz-utils tar \
+          dos2unix libfuse-dev ca-certificates
+
           sudo mkdir -p /mnt/build_wrt
           sudo chown $USER:$USER /mnt/build_wrt
           sudo ln -s /mnt/build_wrt $GITHUB_WORKSPACE/wrt
