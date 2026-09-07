@@ -1,7 +1,7 @@
 # Applications
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-diskman=y
-CONFIG_PACKAGE_luci-app-dockerman=y
+# CONFIG_PACKAGE_luci-app-dockerman=y
 # CONFIG_PACKAGE_luci-app-poweroffdevice=y  #关机
 # CONFIG_PACKAGE_luci-app-qmodem-next=y  #移动网络设置
 # CONFIG_PACKAGE_luci-app-netwizard=y   #网络设置向导
