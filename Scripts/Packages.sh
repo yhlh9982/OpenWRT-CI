@@ -78,6 +78,7 @@ UPDATE_PACKAGE "passwall2" "Openwrt-Passwall/openwrt-passwall2" "main" "pkg"
 UPDATE_PACKAGE "passwall-packages" "Openwrt-Passwall/openwrt-passwall-packages" "main" 
 
 # 常用工具与应用
+UPDATE_PACKAGE "podman" "Zerogiven-OpenWRT-Packages/luci-app-podman" "main"  #podman
 UPDATE_PACKAGE "netspeedtest" "sirpdboy/luci-app-netspeedtest" "master" "" "homebox speedtest"  #homebox speedtest测速
 UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"    #alist的新替换openlist
 UPDATE_PACKAGE "poweroffdevice" "sirpdboy/luci-app-poweroffdevice" "js"   #关机
