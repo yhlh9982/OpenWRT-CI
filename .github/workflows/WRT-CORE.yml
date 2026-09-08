@@ -86,26 +86,6 @@ jobs:
           sudo -E systemctl daemon-reload
           sudo -E timedatectl set-timezone "Asia/Shanghai"
 
-          sudo -E apt-get install -yqq \
-            build-essential \
-            bc \
-            flex \
-            bison \
-            python3 \
-            xz-utils \
-            tar \
-            libssl-dev \
-            libelf-dev \
-            libfuse-dev \
-            clang \
-            llvm \
-            dwarves \
-            dos2unix \
-            nodejs \
-            npm
-
-          sudo npm install -g pnpm
-
           sudo mkdir -p /mnt/build_wrt
           sudo chown $USER:$USER /mnt/build_wrt
           sudo ln -s /mnt/build_wrt $GITHUB_WORKSPACE/wrt
@@ -144,6 +124,12 @@ jobs:
           echo "WRT_HASH=$WRT_HASH" >> $GITHUB_ENV
           echo "WRT_CACHE_KEY=$WRT_CACHE_PREFIX-$WRT_HASH" >> $GITHUB_ENV
           echo "cache_key=$WRT_CACHE_PREFIX-$WRT_HASH" >> "$GITHUB_OUTPUT"
+
+          # 如果不存在 defconfig 则直接结束工作流
+          if [ ! -d "defconfig" ]; then
+            echo "defconfig directory not found, stopping workflow."
+            exit 0
+          fi
 
           # GitHub Action 移除国内下载源
           PROJECT_MIRRORS_FILE="./scripts/projectsmirrors.json"
@@ -275,7 +261,7 @@ jobs:
             请注意选择你需要的设备固件！
             不要问，刷就完事了！
 
-            全系带开源硬件加速，别问了！
+            全系带闭源硬件加速，别问了！
 
             源码：${{env.WRT_REPO}}
             分支：${{env.WRT_BRANCH}}
