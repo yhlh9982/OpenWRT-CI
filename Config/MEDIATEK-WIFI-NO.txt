@@ -15,4 +15,5 @@ CONFIG_PACKAGE_kmod-cryptodev=y
 CONFIG_PACKAGE_kmod-tls=y
 
 #插件调整
-CONFIG_PACKAGE_luci-app-dockerman=y
+# CONFIG_PACKAGE_luci-app-dockerman=y
+CONFIG_PACKAGE_luci-app-podman=y
