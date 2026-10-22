@@ -57,8 +57,6 @@ UPDATE_PACKAGE "shadcn" "eamonxg/luci-theme-shadcn" "main"
 
 #科学插件
 UPDATE_PACKAGE "daede" "kenzok8/openwrt-daede" "main"
-UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "kix"
-UPDATE_PACKAGE "vmlinux-btf" "QiuSimons/vmlinux-btf" "master"
 
 UPDATE_PACKAGE "daed-honk" "kenzok8/openwrt-honk" "main"
 # UPDATE_PACKAGE "daed-honk" "breeze303/openwrt-honk" "main"
