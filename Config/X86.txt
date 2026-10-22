@@ -80,3 +80,6 @@ CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Simple_Obfs=n
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_SingBox=n
 # CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_tuic_client is not set
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_V2ray_Plugin=n
+
+# CONFIG_PACKAGE_luci-app-podman=y
+CONFIG_PACKAGE_luci-app-dockerman=y
