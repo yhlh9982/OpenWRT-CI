@@ -85,10 +85,7 @@ UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"    #alist的新替�
 UPDATE_PACKAGE "poweroffdevice" "sirpdboy/luci-app-poweroffdevice" "js"   #关机
 UPDATE_PACKAGE "netwizard" "sirpdboy/luci-app-netwizard" "main"  #网络设置向导
 UPDATE_PACKAGE "advancedplus" "sirpdboy/luci-app-advancedplus" "main"  #高级设置
-UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"  #分区助手
-UPDATE_PACKAGE "mosdns" "sbwml/luci-app-mosdns" "v5" "" "v2dat"
-rm -rf feeds/packages/lang/golang
-UPDATE_PACKAGE "packages_lang_golang" "sbwml/packages_lang_golang" "27.x" 
+UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"  #分区助手 
 UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"  #qbittorrent下载
 UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
