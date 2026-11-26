@@ -71,6 +71,8 @@ UPDATE_PACKAGE "homeproxy" "VIKINGYFY/homeproxy" "main"
 UPDATE_PACKAGE "momo" "nikkinikki-org/OpenWrt-momo" "main"
 UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki" "main"
 UPDATE_PACKAGE "nikki-rs" "CHKayanami/OpenWrt-nikki-rs" "main"
+UPDATE_PACKAGE "nikki-concord" "ParadoxKr/nikki-concord" "main"
+# UPDATE_PACKAGE "nikki-concord" "ParadoxKr/nikki-concord" "smart-lgbm"
 
 UPDATE_PACKAGE "openclash" "vernesong/OpenClash" "master" "pkg"
 
