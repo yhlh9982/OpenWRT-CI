@@ -57,12 +57,10 @@ UPDATE_PACKAGE "shadcn" "eamonxg/luci-theme-shadcn" "main"
 UPDATE_PACKAGE "vantage" "anothaDev/luci-theme-vantage" "main"
 
 #科学插件
-UPDATE_PACKAGE "dae" "QiuSimons/luci-app-dae" "kix"
+UPDATE_PACKAGE "dae" "QiuSimons/luci-app-daeuniverse" "master"
 # UPDATE_PACKAGE "daede" "kenzok8/openwrt-daede" "main"
 
 # UPDATE_PACKAGE "daed-honk" "kenzok8/openwrt-honk" "main"
-# UPDATE_PACKAGE "daed-honk" "breeze303/openwrt-honk" "main"
-UPDATE_PACKAGE "daed-honk" "QiuSimons/luci-app-honk" "master"
 
 # UPDATE_PACKAGE "helloworld-ssrp" "fw876/helloworld" "master"
 
